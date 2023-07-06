@@ -1,0 +1,161 @@
+/* universal selector use  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Header section start here  */
+.header-container{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 17px;
+}
+/* header logo here */
+.logo-photo{
+    width: 100px;
+} 
+/* menu part here */
+.menu_part{
+    display: flex;
+    list-style: none;
+    
+}
+/* menu part item here */
+.menu_part .item{
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(72, 128, 109);
+}
+/*Header section end here  */
+/*Banner section start here  */
+.banner-section{
+    height: 100vh;
+    color: white;
+    background-image: url('/img/background.png'),linear-gradient(45deg,rgb(5, 5, 5) ,rgb(45, 45, 45));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* right content area css */
+.title{
+    font-size: 54px;
+    font-weight: 700;
+}
+.short-dec{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* banner left photo area css */
+.banner-photo{
+    width: 300px;
+}
+/*Banner section end here  */
+/*About section start here  */
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.about-section{
+    display: flex;
+    padding:25px;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.about_image_style{
+    width: 300px;
+}
+/*About section end here  */
+/*Our service section start here  */
+.service-area{
+    background-image: url('/img/background.png'),linear-gradient(45deg,rgb(4, 4, 4) ,#2e2e2e);
+    padding: 35px 0px;
+    color:#fff;
+}
+.service-box-area{
+    display: flex;
+    justify-content: space-around;
+}
+.main-box{
+    background-color: #101010;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 20px;
+    box-shadow: 4px 2px 100px #d2c6c6;
+}
+.box-img-style{
+    width: 70px;
+}
+.box-text{
+    padding-top: 7px;
+    font-size: 16px;
+}
+.box-btn{
+    background-color: gray;
+}
+/*Our service section end here  */
+
+/*Footer section start here  */
+footer{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+}
+.footer_section{
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+/* footer sub title */
+.footer_sub_title{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+/* footer unoder list here */
+.unoder-list{
+    list-style: none;
+    line-height: 30px;
+}
+/* footer logo box area here */
+.footer-logo-box{
+    width: 25%;
+    margin-bottom: 75px;
+}
+/* log area in footer */
+.logo-footer{
+    width: 170px;
+    padding-bottom: 15px;
+}
+/* copyright section */
+.copyright{
+    width: 75%;
+    margin: 0 auto;
+}
+.copymessage{
+    text-align: center;
+    margin-top: 15px;
+}
+/*Footer section end here  */
